@@ -1,0 +1,73 @@
+* {
+    font-family: arial;
+}
+
+body {
+    background-color: rgb(0, 148, 148);
+}
+
+#counter {
+    text-align: center;
+    font-size: 150px;
+    margin-top: 0%;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.max-width {
+    margin-left: 36%;
+    margin-top: -5%;
+}
+
+.max-width button {
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.max-width button:hover {
+    color:rgb(0, 148, 148);
+}
+
+@media screen and (max-width: 480px) {
+    
+    h1 {
+        font-size: 60px;
+        margin-left: 0%;
+    }
+    
+    #counter {
+        font-size: 100px;
+    }
+
+    .max-width {
+        margin-left: 4%;
+    }
+
+    .max-width button {
+        font-size: 20px;
+        margin: 5px;
+        width: 80px;
+        height: 40px;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    
+    .max-width {
+        margin-left: 30%;
+    }
+
+    .max-width button {
+        margin: 2px;
+    }
+}
