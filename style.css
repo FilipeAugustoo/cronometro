@@ -45,7 +45,7 @@ h1 {
     }
     
     #counter {
-        font-size: 100px;
+        font-size: 60px;
     }
 
     .max-width {
@@ -62,9 +62,13 @@ h1 {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
+    #counter {
+        font-size: 80px;
+    }
     
     .max-width {
-        margin-left: 30%;
+        margin-left: 15%;
     }
 
     .max-width button {
